@@ -1,0 +1,887 @@
+body {
+    padding: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.section-one {
+    background-color: #ff7aac;
+}
+
+.header-head {
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   list-style: none;
+   gap: 20px;
+}
+.left-header ul {
+       display: flex;
+       gap: 30px;
+       list-style: none;
+       justify-content: center;
+       align-content: center;      
+}
+.fa-arrow-right-to-bracket {
+    display: flex;
+    position: relative;
+    right: 120px;
+    
+}
+.left-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.header-right ul{
+     display: flex;
+     gap: 30px;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+   
+     
+}
+.header-right{
+ 
+    justify-items: center;
+    align-items: center;
+}
+
+.first-button {
+    width: 95px;
+    padding: 9px;
+    border-radius: 5px;
+    justify-content: center;
+    justify-self: center;
+    background-color: #ff7aac;
+}
+
+/*first section*/
+
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    background-color: #ff7aac;
+}
+
+
+.sub-image {
+ 
+    width: 50%;
+    display: flex;
+    position: relative;
+}
+
+.second-button {
+  padding: 17px;
+  width: 300px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+.highlight h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+.highlight {
+    justify-items: center;
+ 
+    width: 50%;
+}
+.right-arr {
+    display: flex;
+    position: relative;
+    left: 50px;
+    bottom: 40px;
+}
+
+.first {
+    display: flex;
+    position: absolute;
+    width: 250px;
+    right: 150px;
+    top: 100px;
+    border-radius: 5px;
+}
+.second {
+   display: flex;
+   position: absolute;
+   right: 50px;
+   top: 30px;
+   width: 350px;
+   right: 180px;
+   top: 65px;
+   border-radius: 5px;
+}
+.third {
+    display: flex;
+    position: absolute;
+    width: 430px;
+    bottom: 40px;
+    right: 220px;
+    border-radius: 5px;
+}
+
+/*scores*/
+
+
+
+
+
+
+.on-role ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding: 40px;
+}
+.on-role li{
+    font-weight: 530;
+    font-size: 20px;
+    list-style: none;
+}
+.on-role p {
+    font-size: 17px;
+}
+/*countries on role*/
+.countries {
+    width: 100%;
+
+}
+
+.countries-on-role {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+    line-height: 25px;
+}
+.countries-on-role article {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    line-height: 20px;
+    justify-items: left;
+    justify-self: center;
+    
+    
+}
+.countries-on-role article p {
+    font-size: 15px;
+    position: relative;
+    bottom: 25px;
+}
+.fa-chevron-right{
+         position: relative;
+         left: 350px;
+         top: 70px;
+}
+.spin {
+    display: flex;
+    position: relative;
+    top: 55px;
+    left: 50px;
+}
+.spin-cross {
+    display: flex;
+    position: relative;
+    left: 75px;
+    text-decoration: underline;
+}
+button {
+    padding: 3.5px;
+    border-radius: 7px;
+    gap: 60px;
+    background-color: rgb(222, 222, 222);
+}
+.indicator {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    top: 20px;
+}
+.first-indicator {
+    padding: 4px;
+    border-radius: 1px;
+    background-color: #ff7aac;
+}
+/*find the right tutor*/
+.tripple-image {
+   
+}
+.find-tutor {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding: 100px;
+
+}
+.tripple-image h1 {
+       font-size: 70px;
+}
+
+.english-learner {
+    width: 50%;
+    padding-bottom: 530px;
+    height: auto;
+}
+.class {
+    width: 50%;
+    border: 1px solid;
+    background-color: #067560;
+
+}
+.class li {
+    
+    list-style: none;
+}
+
+.english-learner ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.four {
+    display: flex;
+    position: absolute ;
+    width: 300px;
+    left: 170px;
+    top: 170px;
+    border-radius: 5px;
+   
+ }
+ .five {
+    display: flex;
+    position: absolute;
+    width: 350px;
+    left: 220px;
+    top: 135px;
+    border-radius: 5px;
+    
+ }
+ .six {
+     display: flex;
+    position: absolute;
+    width: 400px;
+    left: 275px;
+    border-radius: 5px;
+ }
+ .english-learner button {
+    display: flex;
+    position: relative;
+    left: 350px;
+    top: 520px;
+    padding: 10px;
+}
+.button {
+    background-color: #067560;
+}
+
+
+.three-dots {
+    display: flex;
+    flex-direction: column;
+}
+.class h2 {
+    font-size: 45px;
+}
+.class button{
+    margin-left: 20px; 
+}
+
+/** how preply works */
+
+.far-end {
+    width: 100%;
+    
+}
+.true {
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+
+
+
+
+
+
+
+.far-end h1 {
+    display: flex;
+    position: relative;
+    margin-left: 55px;
+    font-size: 50px;
+}
+.fa-graduation-cap {
+    display: flex;
+    position: relative;
+    top: 35px;
+}
+
+.fa-language {
+    display: flex;
+    position: relative;
+    top: 35px;
+}
+
+.three-fold-divs {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    font-size: 70%;
+    
+}
+.first-div {
+    border: 1px solid;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 30.333%;   
+}
+.first-div button{
+    display: flex;
+    position: relative;
+    padding: 5px;
+    width: 35px;
+    left: 35px;
+    top: 40px;
+    background-color: #067560;
+    font-size: 30px;
+    font-weight: 800;
+}
+.first-div .y{
+    margin-left: 30px;
+    font-size: 20px;
+
+    
+}
+.first-div .boldest {
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: 900;
+}
+.waves {
+    display: flex;
+    flex-direction: row;
+}
+.main-one1 {
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 80%;
+    position: absolute;
+    line-height: 10px;
+    top: 285px;
+    right: 25px;
+    z-index: 1;
+    background-color: aliceblue;
+    
+}
+.main-one1 .four-star {
+    display: flex;
+    position: relative;
+    left: 130px;
+    top: 2px;
+    font-size: 20px;
+    font-weight: 800;
+}    
+
+.main-one1 img {
+   display: flex;
+   position: relative;
+   right: 25px;
+}
+
+.main-one2 {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80%;
+    position: absolute;
+    line-height: 10px;
+    top: 560px;
+    right: 0;
+    background-color: aliceblue;
+}
+.main-one2 img {
+    display: flex;
+   position: relative;
+   right: 25px;
+}
+
+.main-one3 {
+    display: flex;
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    width: 80%;
+    line-height: 10px;
+    top: 420px;
+    right: 10px;
+    background-color: aliceblue;
+}
+.main-one3 img {
+    display: flex;
+   position: relative;
+   right: 25px;
+}
+
+.second-div {
+    border: 1px solid;
+}
+.second-div .bolder{
+    font-size: 50px;
+    font-weight: 800;
+}
+.second-div p {
+    margin-left: 30px;
+    font-size: 20px;
+}
+.second-div button{
+    display: flex;
+    position: relative;
+    padding: 5px;
+    width: 35px;
+    left: 35px;
+    top: 40px;
+    background-color: yellow;
+    font-size: 30px;
+    font-weight: 800;
+}
+.third-div {
+    border: 1px solid;
+}
+.third-div .bold{
+    font-size: 50px;
+    font-weight: 800;
+}
+.third-div p {
+    margin-left: 30px;
+    font-size: 20px;
+}
+.third-div button{
+    display: flex;
+    position: relative;
+    padding: 5px;
+    width: 35px;
+    left: 35px;
+    top: 40px;
+    background-color: #0450b4;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+/*guarantee*/
+
+
+.assurance {
+    background-color: #ff7aac;
+    padding: 45px;
+    margin-top: 50px;
+
+}
+.assurance h1 {
+     text-align: center;
+     font-size: 70px;
+}
+.assurance p {
+    text-align: center;
+    font-size: 20px;
+}
+
+/*becomeing a tutor */
+.become-a-tutor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+}
+.image {
+  
+    width: 50%;
+}
+
+.goodlooking {
+    display: flex;
+   position: absolute;
+    width: 430px;
+    left: 112px;
+
+}
+.duplicate {
+    display: flex;
+    width: 430px;
+    position: absolute;
+    left: 233px;
+
+}
+.clarification {
+
+    background-color: #067560;
+    padding: 20px;
+    width: 50%;
+}
+.clarification h1{
+       font-size: 70px;
+       font-weight: 900;
+       justify-content: left;
+}
+.objectives li {
+    font-size: 20px;
+    font-weight: 800;
+}
+.key-pointer {
+    padding: 17px;
+    width: 479px;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+}
+.e {
+    display: flex;
+    position: relative;
+    bottom: 38px;
+    left: 300px;
+}
+.get-confirmed {
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+
+/*book your demo*/
+.t {
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+
+
+
+
+.official-booking {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.business-training {
+    font-size: 50px;
+    margin-left: 50px;
+    font-weight: 800;
+
+}
+.boxes img {
+    width: 200px;
+}
+.how-it-works p {
+      font-size: 17px;
+      margin-left: 50px;
+}
+.how-it-works button {
+    margin-left: 50px;
+    padding: 16px;
+    width: 220px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.first-link {
+    background-color: #067560;
+}
+.second-link {
+    background-color: white;
+}
+.first-box {
+    display: flex;
+    border: 1px solid;
+    position: relative;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    justify-content: center;
+    background-color: yellow;
+    left: 620px;
+    bottom:230px;
+
+}
+.second-box {
+    display: flex;
+    border: 1px solid;
+    position: relative;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    justify-content: center;
+    background-color: yellow;
+    left: 820px;
+    bottom: 180px;
+}
+.third-box {
+    display: flex;
+    border: 1px solid;
+    position: relative;
+    width: 80px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    justify-content: center;
+    background-color: yellow;
+    left: 990px;
+    bottom: 300px;
+}
+
+/*footer*/
+.first-footer {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid;
+    gap: 100px;
+}
+.first-footer ul li {
+    list-style: none;
+    text-decoration: underline;
+}
+.first-footer ul li:hover {
+    color: #ff7aac;
+}
+.first-sub-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    border-bottom: 1px solid;
+}
+.first-sub-footer ul li{
+    list-style: none;
+    text-decoration: underline;
+}
+.first-sub-footer ul li:hover {
+    color: #ff7aac;
+}
+.main-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.show-more {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 600px;
+    bottom: 20px;
+    padding: 10px;
+}
+.footer {
+    width: 100%;
+    justify-self: center;
+}
+.footer h1 {
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+
+
+
+
+/*second footer*/
+
+.sub-second-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.sub-second-footer li{
+       list-style: none;
+       text-decoration: underline;
+}
+.sub-second-footer li:hover {
+    color: #ff7aac;
+}
+.second-footer h1 {
+    font-size: 30px;
+    margin-left: 40px;
+}
+.second-footer {
+   
+}
+
+
+
+
+
+
+/*final footer*/
+
+.first-final-footer {
+    background-color: black;
+    color: white;
+}
+
+.sub-final {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap: 90px;
+}
+.sub-final li {
+    list-style: none;
+    text-decoration: underline;
+}
+.sub-final li:hover {
+    color: #ff7aac;
+}
+
+/*contacts*/
+.background {
+    background-color: black;
+    color: white;
+}
+.platforms {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+.platforms li {
+    list-style: none;
+    text-decoration: underline;
+}
+.platforms li:hover {
+    color: #ff7aac;
+}
+.imagess {
+    width: 120px;
+}
+.img {
+    width: 120px;
+}
+/*0ne on onw tutors*/
+.one-on-one-tutors {
+    background-color: black;
+    color: white;
+}
+
+.meet-tutors {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}  
+.meet-tutors ul{
+    list-style: none;
+    justify-content: center;
+}
+.meet-tutors ul li:hover {
+    color: #ff7aac;
+}
+.meet-tutors ul li{
+    text-decoration: underline;
+}
+/*stand down*/
+.stand-down {
+    background-color: black;
+    color: white;
+}
+
+.end-of-it ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 50px;
+    position: relative;
+    top: 30px;
+   
+}
+.end-of-it ul li:hover {
+    color: #ff7aac;
+}
+.end-of-it {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.end-of-it h1 {
+    display: flw;
+    position: relative;
+    bottom: 30px;
+}
+.end {
+    display: flex;
+    text-decoration: underline;
+}
+
+/*arrow up key*/
+
+
+
+.arrow-key {
+    display: flex;
+    position: relative;
+}
+.arrow-up {
+    display: flex;
+    border: 1px solid black;
+    width: 35px;
+    padding: 15px;
+    background-color: #ff7aac;
+    border-radius: 5px;
+    position: relative;
+    bottom: 930px;
+    left: 92%;
+}
+
+
+
+@media  (max-width: 720px) {
+    .become-a-tutor {
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+
+    
+
+}
+
+@media  (max-width: 600px) {
+    .main-container {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: green;
+    }
+
+
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
